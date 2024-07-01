@@ -5,6 +5,7 @@ from .models import ChatRoom
 from .serializers import ChatRoomSerializer
 from django.urls import reverse
 
+from .views import sumNumbers
 
 class ChatRoomViewSetTest(TestCase):
     @classmethod
